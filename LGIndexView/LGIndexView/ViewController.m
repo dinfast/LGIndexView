@@ -47,7 +47,7 @@
 -(void)creatLGView
 {
     NSMutableArray * arr = [NSMutableArray new];
-    for (int i = 0; i < 26; i ++)
+    for (int i = 0; i < 25; i ++)
     {
         unichar ch = 65 + i;
         NSString * str = [NSString stringWithUTF8String:(char *)&ch];
